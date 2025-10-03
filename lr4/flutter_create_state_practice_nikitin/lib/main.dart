@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: increment,
                 onLongPress: incrementByTen,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue,
+                  backgroundColor: const Color.fromRGBO(180, 4, 228, 1),
                   padding: const EdgeInsets.symmetric(
                     horizontal: 20,
                     vertical: 10,
@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: ElevatedButton(
                 onPressed: reset,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green,
+                  backgroundColor: const Color.fromARGB(255, 174, 4, 100),
                   padding: const EdgeInsets.symmetric(
                     horizontal: 20,
                     vertical: 10,
