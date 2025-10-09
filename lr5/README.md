@@ -101,7 +101,9 @@ void _delete(Note note) {
       backgroundColor: Colors.black,
       action: SnackBarAction(
         label: 'Отменить',
-        textColor: Colors.red,
+    
+
+    textColor: Colors.red,
         onPressed: () {
           setState(() => _notes.add(note));
         },
@@ -112,7 +114,6 @@ void _delete(Note note) {
 ```
 Пояснение: Удаление обновляет список через setState, а SnackBar позволяет отменить действие.
 ## Скриншоты:
-
 
 https://github.com/user-attachments/assets/f2a944af-a805-4735-8b30-26aab717ba27
 
