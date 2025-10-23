@@ -101,7 +101,9 @@ void _delete(Note note) {
       backgroundColor: Colors.black,
       action: SnackBarAction(
         label: 'Отменить',
-        textColor: Colors.red,
+    
+
+    textColor: Colors.red,
         onPressed: () {
           setState(() => _notes.add(note));
         },
@@ -112,7 +114,7 @@ void _delete(Note note) {
 ```
 Пояснение: Удаление обновляет список через setState, а SnackBar позволяет отменить действие.
 ## Скриншоты:
-
+![[video_2025-10-09_13-25-00.mp4]]
 ## Выводы:
 были приобретены навыки:
 - Использование ListView.builder для эффективного отображения динамических списков.
