@@ -169,3 +169,7 @@ class _GeoSensorsPageState extends State<GeoSensorsPage> {
 Приложение успешно выполняет все поставленные задачи. Были изучены и применены на практике основные пакеты для работы с аппаратными возможностями устройств.
 
 ## Скриншоты
+![131](https://github.com/user-attachments/assets/a768a00a-d098-485e-8630-1d96ce078a4e)
+![133](https://github.com/user-attachments/assets/8b6053c5-1ef9-4e8e-b838-2045d37a4f32)
+![134](https://github.com/user-attachments/assets/52545003-2198-48bc-8329-9d491a133dd9)
+
